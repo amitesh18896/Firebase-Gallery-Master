@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621945094105",
+    "firebase_url": "https://fir-gallery-8bd19.firebaseio.com",
+    "project_id": "fir-gallery-8bd19",
+    "storage_bucket": "fir-gallery-8bd19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621945094105:android:5451cf0e57591ccc10e3c8",
+        "android_client_info": {
+          "package_name": "com.pallaw.firebasegallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621945094105-lgrjinm2tqjac3j61e3571sdjiegvoju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYGyqXMjMZyKJmC_3-Vryh9hsLmS2-nLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621945094105-lgrjinm2tqjac3j61e3571sdjiegvoju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

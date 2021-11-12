@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Firebase Gallary</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="gallary_fragment_label">@string/app_name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

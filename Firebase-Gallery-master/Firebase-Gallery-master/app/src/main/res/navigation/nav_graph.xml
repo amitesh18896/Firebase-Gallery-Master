@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="@string/gallary_fragment_label"
+    app:startDestination="@id/GallaryFragment">
+
+    <fragment
+        android:id="@+id/GallaryFragment"
+        android:name="com.pallaw.firebasegallery.ui.gallery.GalleryGridFragment"
+        android:label="@string/gallary_fragment_label"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/toGalleryZoom"
+            app:destination="@id/galleryZoom"
+            app:enterAnim="@anim/enter_from_right"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryZoom"
+        android:name="com.pallaw.firebasegallery.GalleryZoomFragment"
+        android:label="fragment_gallery_zoom"
+        tools:layout="@layout/fragment_gallery_zoom" >
+        <argument
+            android:name="photo"
+            app:argType="com.pallaw.firebasegallery.data.resources.Photo" />
+    </fragment>
+</navigation>
