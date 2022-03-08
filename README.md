@@ -24,4 +24,4 @@ Timber: Logging
 PhotoView: Tap and Pinch zoom
 
 
-Imagepicker: Image picking
+Imagepicker: Image picking..
